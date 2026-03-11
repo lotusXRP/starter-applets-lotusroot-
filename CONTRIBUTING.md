@@ -1,28 +1,35 @@
-# How to Contribute
+# Contributing Guidelines
 
-We'd love to accept your patches and contributions to this project. There are
-just a few small guidelines you need to follow.
+## Code of Conduct
 
-## Contributor License Agreement
+See [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
 
-Contributions to this project must be accompanied by a Contributor License
-Agreement. You (or your employer) retain the copyright to your contribution;
-this simply gives us permission to use and redistribute your contributions as
-part of the project. Head over to <https://cla.developers.google.com/> to see
-your current agreements on file or to sign a new one.
+## Development Setup
 
-You generally only need to submit a CLA once, so if you've already submitted one
-(even if it was for a different project), you probably don't need to do it
-again.
+1. Fork the repository
+2. Clone your fork
+3. Create a feature branch
+4. Make changes
+5. Run tests: `npm run test`
+6. Run linter: `npm run lint`
+7. Submit pull request
 
-## Code reviews
+## Commit Messages
 
-All submissions, including submissions by project members, require review. We
-use GitHub pull requests for this purpose. Consult
-[GitHub Help](https://help.github.com/articles/about-pull-requests/) for more
-information on using pull requests.
+Use conventional commits:
+- `feat:` New feature
+- `fix:` Bug fix
+- `docs:` Documentation
+- `test:` Tests
+- `refactor:` Code refactoring
+- `perf:` Performance improvement
+- `chore:` Maintenance
 
-## Community Guidelines
+## Pull Request Process
 
-This project follows
-[Google's Open Source Community Guidelines](https://opensource.google.com/conduct/).
+1. Update documentation
+2. Add tests for new features
+3. Ensure all tests pass
+4. Request review from maintainers
+5. Address feedback
+6. Merge when approved
