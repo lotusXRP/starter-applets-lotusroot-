@@ -28,7 +28,7 @@ export const modelOptions = [
   "models/gemini-1.5-flash",
 ];
 
-export const imageOptions: string[] = [
+export const imageOptions: readonly string[] = [
   "origami.jpg",
   "pumpkins.jpg",
   "clock.jpg",
